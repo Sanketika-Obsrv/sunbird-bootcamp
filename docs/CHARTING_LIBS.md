@@ -1,4 +1,4 @@
-#Exploring Client-Side Charting Libraries
+# Exploring Client-Side Charting Libraries
 Charts play a crucial role in visually representing data, making it easier to analyze and comprehend complex information. In this document, we will explore various client-side charting libraries that can be used to create stunning and interactive charts in web applications. Each library has its unique features and capabilities, catering to different visualization needs.
 
 
