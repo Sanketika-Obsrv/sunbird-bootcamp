@@ -1,22 +1,21 @@
 import { FormControl, InputLabel, MenuItem, Select, Grid } from "@mui/material";
-import markers from 'data/markers.json';
 
-const CountryFilters = (props) => {
+const RegionFilter = (props) => {
 
-    const { setRegion } = props;
+    const { setRegion, markers, markerConfig, setZoom } = props;
 
     const onChange = (e) => {
         const { target } = e;
         if (!target) return;
-        const { value } = target;
-        const { position } = value;
-        setRegion(position);
+        const { value: marker } = target;
+        const coordinates = markerConfig.fetchCoordinates(marker);
+        setRegion(coordinates);
+        setZoom(markerConfig.zoomLevel);
     }
 
     const renderRegion = (marker) => {
-        const { position, region } = marker;
-        if (!position) return null;
-        return <MenuItem value={marker}>{region}</MenuItem>
+        const [label, value] = markerConfig.getLabelAndValueForFilter(marker);
+        return <MenuItem value={marker}>{label}</MenuItem>
     }
 
     return <>
@@ -34,4 +33,4 @@ const CountryFilters = (props) => {
     </>
 }
 
-export default CountryFilters
+export default RegionFilter

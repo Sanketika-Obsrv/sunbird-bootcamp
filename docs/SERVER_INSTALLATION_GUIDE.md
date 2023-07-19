@@ -39,6 +39,8 @@ Configure below mentioned environment variables to run your server
 | PORT  | Port number to run your server   | 
 | OBSRV_API_KEY   | Obsrv API Key  | 
 | OBSRV_API_HOST    | Obsrv API Host  | 
+| DATASOURCE    | Datasource name to run sql query  | 
+| SQL_QUERY    | SQL Query to fetch data  | 
 
 ** Please reach out to the administrator for API key access.**
 

@@ -6,11 +6,11 @@ import LocationMarker from './LocationMarker';
 
 const Map = (props) => {
 
-    const { region } = props;
+    const { region, zoom } = props;
     const map = useMap();
 
     const setView = ({ coordinates }) => {
-        map.setView(coordinates, map.getZoom(), {
+        map.setView(coordinates, zoom || map.getZoom(), {
             animate: true
         });
     }
@@ -38,7 +38,7 @@ const WorldMap = (props) => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             {markers.map(renderMarker)}
-            <Map region={region} />
+            <Map region={region} zoom={zoom} />
         </MapContainer>
     </ Box>
 }

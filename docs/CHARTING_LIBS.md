@@ -1,7 +1,6 @@
 # Exploring Client-Side Charting Libraries
 Charts play a crucial role in visually representing data, making it easier to analyze and comprehend complex information. In this document, we will explore various client-side charting libraries that can be used to create stunning and interactive charts in web applications. Each library has its unique features and capabilities, catering to different visualization needs.
 
-
 ## ApexCharts
 ApexCharts is a modern charting library built on top of ApexCharts Core. It offers various chart types, including area, line, bar, and radar charts. ApexCharts provides numerous customization options and a straightforward API, making it easy to integrate with applications.
 
@@ -23,10 +22,3 @@ D3.js, short for Data-Driven Documents, is a powerful data visualization library
 Website: https://d3js.org/
 GitHub Repository: https://github.com/d3/d3
 Documentation: https://d3js.org/#documentation
-
-## Highcharts
-Highcharts is a feature-rich charting library with a wide array of chart types, animations, and customization options. It is designed to work smoothly across different browsers and devices. Highcharts offers a user-friendly API and is well-suited for both beginners and advanced developers.
-
-Website: https://www.highcharts.com/
-GitHub Repository: Not open-source, check the website for licensing and options.
-Documentation: https://www.highcharts.com/docs/index

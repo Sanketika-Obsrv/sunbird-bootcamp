@@ -6,16 +6,17 @@ import { useState } from "react";
 import weatherRawData from 'data/indianWeather.json';
 import _ from 'lodash';
 import BasicTable from "ui-component/cards/BasicTable";
+import RegionFilter from "./components/Filters";
 
 const PopupTemplate = (props) => {
     const { payload } = props;
-
     return <div> {payload?.district_name} </div>
 }
 
 const IndiaMap = props => {
 
     const [region, setRegion] = useState([20.5937, 72.9629]);
+    const [zoom, setZoom] = useState(4)
     const [selection, setSelection] = useState(null);
 
     const transformSelection = (payload) => {
@@ -35,6 +36,10 @@ const IndiaMap = props => {
         popupTemplate: (payload) => {
             return <PopupTemplate payload={payload} />
         },
+        getLabelAndValueForFilter: marker => {
+            const { longitude, latitude, district_name } = marker
+            return [district_name, [latitude, longitude]]
+        },
         zoomLevel: 7
     }
 
@@ -51,7 +56,10 @@ const IndiaMap = props => {
     return <MainCard title="Indian Weather Report">
         <Grid container spacing={gridSpacing}>
             <Grid item xs={12}>
-                <WorldMap setSelection={setSelection} markers={weatherRawData} region={region} zoom={4} markerConfig={markerConfig} />
+                <RegionFilter setRegion={setRegion} markerConfig={markerConfig} markers={weatherRawData} setZoom={setZoom} />
+            </Grid>
+            <Grid item xs={12}>
+                <WorldMap setSelection={setSelection} markers={weatherRawData} region={region} zoom={zoom} markerConfig={markerConfig} />
             </Grid>
             {renderSelectionData()}
         </Grid>
