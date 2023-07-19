@@ -15,7 +15,7 @@ Follow the steps below to set up and run the project locally:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/username/project.git
+git clone https://github.com/yravinderkumar33/sunbird-obsrv-workshop-example-application
 ```
 
 #### 2. Navigate to project directory
