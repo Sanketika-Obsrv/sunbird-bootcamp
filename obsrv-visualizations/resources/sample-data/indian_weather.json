@@ -1,0 +1,21 @@
+[
+    {
+        "block_id": "IND.20.1.10_1",
+        "state_id": "IND.20_1",
+        "state_name": "Maharashtra",
+        "district_id": "IND.20.1_1",
+        "district_name": "Ahmadnagar",
+        "block_name": "Shevgaon",
+        "longitude": 75.2922793248,
+        "latitude": 19.3634494668,
+        "month": "Apr",
+        "month_num": 4,
+        "year": 2015,
+        "year_type": "El Ni\u00f1o",
+        "grid_temp_min": 17.5306224823,
+        "grid_temp_max": 41.9007949829,
+        "grid_rainfall": 13.3398398161,
+        "ets": 1427826600000,
+        "id": "7dabbb87-56eb-448c-8727-4ebe8ed54dc7"
+    }
+]
