@@ -18,7 +18,7 @@ With Postman, developers can streamline the entire API development lifecycle, fr
 - Documentation Generation: With Postman, you can automatically generate interactive API documentation, making it easy for others to understand and use your APIs.
 
 ## Reference Links
-Official Website: https://www.postman.com/
-Postman Learning Center: https://learning.postman.com/
-Postman API Network: https://explore.postman.com/
-Postman Blog: https://blog.postman.com/
+- Official Website: https://www.postman.com/
+- Postman Learning Center: https://learning.postman.com/
+- Postman API Network: https://explore.postman.com/
+- Postman Blog: https://blog.postman.com/
