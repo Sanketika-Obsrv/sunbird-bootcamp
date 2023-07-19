@@ -1,4 +1,4 @@
-#What is Postman?
+# What is Postman?
 
 Postman is a powerful collaboration platform for API development that simplifies the process of designing, testing, and documenting APIs. It provides a user-friendly interface for developers to interact with APIs and enables them to send requests, analyze responses, and troubleshoot potential issues.
 
@@ -17,7 +17,7 @@ With Postman, developers can streamline the entire API development lifecycle, fr
 
 - Documentation Generation: With Postman, you can automatically generate interactive API documentation, making it easy for others to understand and use your APIs.
 
-Reference Links
+## Reference Links
 Official Website: https://www.postman.com/
 Postman Learning Center: https://learning.postman.com/
 Postman API Network: https://explore.postman.com/
