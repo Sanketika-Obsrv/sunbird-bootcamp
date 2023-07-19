@@ -1,0 +1,214 @@
+[
+    {
+        "region": "Canada",
+        "position": [56.1304, -106.3468]
+    },
+    {
+        "region": "United States",
+        "position": [37.0902, -95.7129]
+    },
+    {
+        "region": "Mexico",
+        "position": [23.6345, -102.5528]
+    },
+    {
+        "region": "Brazil",
+        "position": [-14.2350, -51.9253]
+    },
+    {
+        "region": "Argentina",
+        "position": [-38.4161, -63.6167]
+    },
+    {
+        "region": "Greenland",
+        "position": [71.7069, -42.6043]
+    },
+    {
+        "region": "Iceland",
+        "position": [64.9631, -19.0208]
+    },
+    {
+        "region": "United Kingdom",
+        "position": [55.3781, -3.4360]
+    },
+    {
+        "region": "France",
+        "position": [46.6033, 1.8883]
+    },
+    {
+        "region": "Germany",
+        "position": [51.1657, 10.4515]
+    },
+    {
+        "region": "Spain",
+        "position": [40.4637, -3.7492]
+    },
+    {
+        "region": "Italy",
+        "position": [41.8719, 12.5674]
+    },
+    {
+        "region": "Russia",
+        "position": [61.5240, 105.3188]
+    },
+    {
+        "region": "China",
+        "position": [35.8617, 104.1954]
+    },
+    {
+        "region": "India",
+        "position": [20.5937, 78.9629]
+    },
+    {
+        "region": "Indonesia",
+        "position": [-0.7893, 113.9213]
+    },
+    {
+        "region": "Australia",
+        "position": [-25.2744, 133.7751]
+    },
+    {
+        "region": "New Zealand",
+        "position": [-40.9006, 174.8860]
+    },
+    {
+        "region": "South Africa",
+        "position": [-30.5595, 22.9375]
+    },
+    {
+        "region": "Egypt",
+        "position": [26.8206, 30.8025]
+    },
+    {
+        "region": "Nigeria",
+        "position": [9.0820, 8.6753]
+    },
+    {
+        "region": "Kenya",
+        "position": [-1.2864, 36.8172]
+    },
+    {
+        "region": "Saudi Arabia",
+        "position": [23.8859, 45.0792]
+    },
+    {
+        "region": "Israel",
+        "position": [31.0461, 34.8516]
+    },
+    {
+        "region": "Turkey",
+        "position": [38.9637, 35.2433]
+    },
+    {
+        "region": "Iran",
+        "position": [32.4279, 53.6880]
+    },
+    {
+        "region": "Pakistan",
+        "position": [30.3753, 69.3451]
+    },
+    {
+        "region": "Japan",
+        "position": [36.2048, 138.2529]
+    },
+    {
+        "region": "South Korea",
+        "position": [35.9078, 127.7669]
+    },
+    {
+        "region": "Thailand",
+        "position": [15.8700, 100.9925]
+    },
+    {
+        "region": "Vietnam",
+        "position": [14.0583, 108.2772]
+    },
+    {
+        "region": "Philippines",
+        "position": [12.8797, 121.7740]
+    },
+    {
+        "region": "Malaysia",
+        "position": [4.2105, 101.9758]
+    },
+    {
+        "region": "Singapore",
+        "position": [1.3521, 103.8198]
+    },
+    {
+        "region": "Indonesia",
+        "position": [-0.7893, 113.9213]
+    },
+    {
+        "region": "Cuba",
+        "position": [21.5218, -77.7812]
+    },
+    {
+        "region": "Jamaica",
+        "position": [18.1096, -77.2975]
+    },
+    {
+        "region": "Dominican Republic",
+        "position": [18.7357, -70.1627]
+    },
+    {
+        "region": "Haiti",
+        "position": [18.9712, -72.2852]
+    },
+    {
+        "region": "Puerto Rico",
+        "position": [18.2208, -66.5901]
+    },
+    {
+        "region": "Peru",
+        "position": [-9.1899, -75.0152]
+    },
+    {
+        "region": "Chile",
+        "position": [-35.6751, -71.5430]
+    },
+    {
+        "region": "Colombia",
+        "position": [4.5709, -74.2973]
+    },
+    {
+        "region": "Venezuela",
+        "position": [6.4238, -66.5897]
+    },
+    {
+        "region": "Ecuador",
+        "position": [-1.8312, -78.1834]
+    },
+    {
+        "region": "Bolivia",
+        "position": [-16.2902, -63.5887]
+    },
+    {
+        "region": "Paraguay",
+        "position": [-23.4425, -58.4438]
+    },
+    {
+        "region": "Uruguay",
+        "position": [-32.5228, -55.7658]
+    },
+    {
+        "region": "Morocco",
+        "position": [31.7917, -7.0926]
+    },
+    {
+        "region": "Algeria",
+        "position": [28.0339, 1.6596]
+    },
+    {
+        "region": "Tunisia",
+        "position": [33.8869, 9.5375]
+    },
+    {
+        "region": "Libya",
+        "position": [26.3351, 17.2283]
+    },
+    {
+        "region": "South Sudan",
+        "position": [6.8770, 31.3070]
+    }
+]
