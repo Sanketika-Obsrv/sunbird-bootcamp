@@ -15,7 +15,6 @@ logging.basicConfig(
 session = requests.Session()
 start_time = 0
 end_time = 0
-events_count = 0
 
 session.headers.update({
     'x-api-key': APP_CONFIG["API_KEY"],
@@ -42,13 +41,11 @@ def push_batch(events):
                 "id": str(uuid.uuid4()),
                 "events": events
         }})
-        events_count += len(events)
     except BaseException as e:
         logging.error(e)
         print("Error has occured, exiting...")
         end_time = time.time()
         print(f"The time taken for the program is :", {end_time - start_time}, "seconds")
-        print(f"Total no. of events pushed - {events_count}")
         exit()
 
 def batch_data(file_data):
@@ -57,6 +54,7 @@ def batch_data(file_data):
         events.append(event)
         if len(events) == APP_CONFIG["EVENTS_PER_BATCH"]:
             push_batch(events)
+            events = []
     if len(events) > 0:
         push_batch(events)
 
@@ -69,7 +67,6 @@ def main():
         print("Unable to open file at provided path")
     end_time = time.time()
     print(f"The time taken for the program is :", {end_time - start_time}, "seconds")
-    print(f"Total no. of events pushed - {events_count}")
 
 if __name__ == "__main__":
     start_time = time.time()
