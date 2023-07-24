@@ -12,7 +12,7 @@ Please refer to the Sunbird Obsrv bootcamp related details in the [google doc](h
 [Link To Sample Datasets](https://tinyurl.com/sunbird-obsrv-sample-dataset)
 ### Superset
 
-[Link To Dashboard](https://tinyurl.com/sunbird-superset)
+[Link To Dashboard](https://tinyurl.com/sunbird-obsrv-dashboard)
 
 | Username | Password |
 |----------|----------|
